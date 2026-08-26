@@ -48,7 +48,7 @@ Everything is written to `data.json` copy this file somewhere for backups.
 Benchmark it for yourself with your hardware. Feels pretty snappy to me.
 
 ```bash
-./sample_data.json # generates 365 json entries for running for the last year.
+./sample_data.py # generates 365 json entries for running for the last year.
 cp data.json data_backup.json # make a backup if you have data
 cp sample_data.json data.json # copy over sample data file 
 
