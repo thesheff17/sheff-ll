@@ -44,7 +44,7 @@ Yes we do but I don't think any are like this. Here is why I think this one is a
 
 Everything is written to `data.json` copy this file somewhere for backups.
 
-## Peformance 
+## Performance 
 Benchmark it for yourself with your hardware. Feels pretty snappy to me.
 
 ```bash
