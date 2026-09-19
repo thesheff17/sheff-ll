@@ -23,6 +23,8 @@
             --tab-active-text: #ffffff;
             --input-bg: #ffffff;
             --input-text: #333333;
+            --scroll-btn-bg: #007bff;
+            --scroll-btn-text: #ffffff;
         }
 
         [data-theme="dark"] {
@@ -35,6 +37,8 @@
             --tab-active-text: #ffffff;
             --input-bg: #2b2b2b;
             --input-text: #ffffff;
+            --scroll-btn-bg: #3700b3;
+            --scroll-btn-text: #ffffff;
         }
 
         body { 
@@ -306,6 +310,24 @@
                 }
             });
         }
+
+    // Show/hide the scroll button depending on scroll position
+    window.addEventListener('scroll', function() {
+        const btn = document.getElementById('scrollTopBtn');
+        if (window.scrollY > 200) {
+            btn.style.display = 'block';
+        } else {
+            btn.style.display = 'none';
+        }
+    });
+
+    // Scroll smoothly back to top
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
 
         
     </script>
