@@ -38,7 +38,7 @@ Yes we do but I don't think any are like this. Here is why I think this one is a
 * Dark/Light mode.
 * Scroll to top button.
 * No external 3rd party javascript libraries.
-* Supper fast website.
+* Minimal front end code. (No AI agents.)
 
 ## How do I backup the data?
 
